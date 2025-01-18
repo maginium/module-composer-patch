@@ -28,6 +28,7 @@
     }
   },
   "replace": {
+    "magento/magento2-base": "*",
     "magento/module-downloadable-import-export": "*",
     "klarna/module-kp-graph-ql": "*",
     "magento/module-rma-graph-ql": "*",
@@ -385,6 +386,7 @@
     "magento/module-order-cancellation": "*",
     "magento/module-order-cancellation-ui": "*",
     "illuminate/container": "*",
+    "illuminate/cache": "*",
     "illuminate/bus": "*",
     "illuminate/events": "*",
     "illuminate/view": "*",

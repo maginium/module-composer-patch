@@ -86,7 +86,7 @@ class DisableModules extends Migration implements RevertablePatchInterface
         $config = $this->context->getAdminConfig();
 
         // Re-enable the modules by setting each to `1` in the configuration.
-        // The array_fill_keys function generates an array with each module name in
+        // The Arr::fillKeys function generates an array with each module name in
         // `$modules` as a key and `1` as the value, effectively setting each to enabled.
         $config->save([
             ConfigFilePool::APP_CONFIG => [
